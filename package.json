@@ -1,0 +1,38 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "这是我的第一个 TypeScript 项目，主要用于掌握和练习 TypeScript 相关知识点",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fushuwei/typescript-playground.git"
+  },
+  "keywords": [
+    "typescript",
+    "playground",
+    "practice"
+  ],
+  "author": {
+    "name": "fushuwei"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fushuwei/typescript-playground/issues"
+  },
+  "homepage": "https://github.com/fushuwei/typescript-playground#readme",
+  "dependencies": {
+    "tslint": "^5.20.1",
+    "typescript": "^5.9.2"
+  },
+  "files": [
+    "./bin/*",
+    "./lib/*"
+  ],
+  "typings": "./lib/index.d.ts"
+}
