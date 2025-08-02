@@ -4,11 +4,12 @@
 		"module": "commonjs",
 		"moduleResolution": "node",
 		"lib": [
-			"es2015"
+			"es2015",
+      "DOM"
 		],
 
 		"rootDir": "src",
-		"outDir": "lib",
+		"outDir": "dist",
 
 		"strict": true,
 		"alwaysStrict": true,
