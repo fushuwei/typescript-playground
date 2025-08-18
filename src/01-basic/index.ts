@@ -19,3 +19,21 @@ function test(type: string) {
   }
   return 3;
 }
+
+// 3、比较运算符 (!==、===、!=、==) https://chatgpt.com/c/68a34817-920c-832b-9fe7-e6648633da03
+// @ts-ignore
+// tslint:disable-next-line:triple-equals
+console.log(1 == "1");
+// @ts-ignore
+// tslint:disable-next-line:triple-equals
+console.log(1 != "1");
+// @ts-ignore
+// tslint:disable-next-line:triple-equals
+console.log(1 === "1");
+// @ts-ignore
+// tslint:disable-next-line:triple-equals
+console.log(1 !== "1");
+// @ts-ignore
+// tslint:disable-next-line:triple-equals
+console.log(1 !== 2);
+
